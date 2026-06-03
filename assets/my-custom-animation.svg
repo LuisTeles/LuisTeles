@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="title desc">
+	<title id="title">Custom animated developer banner</title>
+	<desc id="desc">Animated waves, orbits, and highlights around a central code panel.</desc>
+
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#0a1022"/>
+			<stop offset="50%" stop-color="#102448"/>
+			<stop offset="100%" stop-color="#1a3b66"/>
+			<animate attributeName="x1" values="0;0.2;0" dur="10s" repeatCount="indefinite"/>
+			<animate attributeName="y2" values="1;0.8;1" dur="10s" repeatCount="indefinite"/>
+		</linearGradient>
+
+		<linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0%" stop-color="#7bdff2" stop-opacity="0"/>
+			<stop offset="50%" stop-color="#7bdff2" stop-opacity="0.9"/>
+			<stop offset="100%" stop-color="#7bdff2" stop-opacity="0"/>
+		</linearGradient>
+
+		<linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#8ec5ff"/>
+			<stop offset="100%" stop-color="#4fa3ff"/>
+		</linearGradient>
+
+		<filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+			<feGaussianBlur stdDeviation="12"/>
+		</filter>
+	</defs>
+
+	<rect width="800" height="320" fill="url(#bg)" rx="20"/>
+
+	<g opacity="0.25" stroke="#7bdff2" stroke-width="1.4" fill="none">
+		<path d="M0 250 C120 210, 210 290, 330 250 S550 210, 800 260">
+			<animate attributeName="d" dur="7s" repeatCount="indefinite"
+				values="
+				M0 250 C120 210, 210 290, 330 250 S550 210, 800 260;
+				M0 245 C120 275, 210 205, 330 245 S550 275, 800 235;
+				M0 250 C120 210, 210 290, 330 250 S550 210, 800 260"/>
+		</path>
+		<path d="M0 220 C140 180, 250 250, 390 220 S620 180, 800 225" opacity="0.6">
+			<animate attributeName="d" dur="9s" repeatCount="indefinite"
+				values="
+				M0 220 C140 180, 250 250, 390 220 S620 180, 800 225;
+				M0 215 C140 255, 250 175, 390 215 S620 255, 800 205;
+				M0 220 C140 180, 250 250, 390 220 S620 180, 800 225"/>
+		</path>
+	</g>
+
+	<ellipse cx="125" cy="58" rx="90" ry="22" fill="#57b3ff" opacity="0.2" filter="url(#softBlur)">
+		<animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
+		<animate attributeName="cx" values="125;165;125" dur="9s" repeatCount="indefinite"/>
+	</ellipse>
+
+	<ellipse cx="692" cy="266" rx="95" ry="22" fill="#7bdff2" opacity="0.18" filter="url(#softBlur)">
+		<animate attributeName="opacity" values="0.1;0.28;0.1" dur="5s" repeatCount="indefinite"/>
+		<animate attributeName="cx" values="692;642;692" dur="11s" repeatCount="indefinite"/>
+	</ellipse>
+
+	<g transform="translate(250 70)">
+		<rect x="0" y="0" width="300" height="180" rx="14" fill="#0b1730" fill-opacity="0.92" stroke="url(#panelStroke)" stroke-width="2"/>
+
+		<rect x="18" y="18" width="264" height="16" rx="8" fill="#14335f"/>
+		<circle cx="30" cy="26" r="4" fill="#7bdff2"/>
+		<circle cx="44" cy="26" r="4" fill="#f7d06e"/>
+		<circle cx="58" cy="26" r="4" fill="#ff7f7f"/>
+
+		<g fill="#d6e8ff" font-family="Consolas, Monaco, monospace" font-size="14">
+			<text x="24" y="64">const build = async () =&gt; {</text>
+			<text x="42" y="88">ship('reliable', 'clean');</text>
+			<text x="42" y="112">learn('daily');</text>
+			<text x="24" y="136">};</text>
+		</g>
+
+		<rect x="24" y="148" width="252" height="12" rx="6" fill="#11305a"/>
+		<rect x="24" y="148" width="90" height="12" rx="6" fill="#7bdff2">
+			<animate attributeName="width" values="70;210;140;90;70" dur="6s" repeatCount="indefinite"/>
+		</rect>
+
+		<rect x="-8" y="0" width="18" height="180" fill="url(#glow)" opacity="0">
+			<animate attributeName="x" values="-20;300" dur="4.5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="0;0.9;0" dur="4.5s" repeatCount="indefinite"/>
+		</rect>
+	</g>
+
+	<g fill="#7bdff2" opacity="0.75">
+		<circle cx="180" cy="250" r="3">
+			<animate attributeName="cy" values="250;238;250" dur="2.6s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="210" cy="268" r="2.8">
+			<animate attributeName="cy" values="268;256;268" dur="2.1s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="610" cy="86" r="3.2">
+			<animate attributeName="cy" values="86;74;86" dur="3.1s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="640" cy="104" r="2.4">
+			<animate attributeName="cy" values="104;94;104" dur="2.4s" repeatCount="indefinite"/>
+		</circle>
+	</g>
+
+	<g transform="translate(400 160)">
+		<circle r="74" fill="none" stroke="#7bdff2" stroke-opacity="0.24" stroke-width="1.2"/>
+		<circle r="52" fill="none" stroke="#8ec5ff" stroke-opacity="0.2" stroke-width="1"/>
+
+		<g>
+			<circle cx="74" cy="0" r="4" fill="#f7d06e"/>
+			<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+		</g>
+		<g>
+			<circle cx="-52" cy="0" r="3.6" fill="#7bdff2"/>
+			<animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5.2s" repeatCount="indefinite"/>
+		</g>
+	</g>
+</svg>
