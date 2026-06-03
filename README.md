@@ -14,5 +14,6 @@
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LuisTeles)](https://github.com/anuraghazra/github-readme-stats)
-
+<p align="center">
+  <img src="./assets/my-custom-animation.svg" width="400" alt="Animated Graphic" />
+</p>
