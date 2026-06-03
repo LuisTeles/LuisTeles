@@ -1,13 +1,22 @@
-# Hi there, I'm Luis Teles 👋
+# Luis Antonio Ribeiro Teles
 
-### 👨‍💻 About Me
-* 🎓 **Computer Engineering Student** at Inatel (National Institute of Telecommunications).
-* 💻 **Full stack developer** at SOIL tecnologia.
-* 🏗️ Passionate about building data-driven applications, establishing solid database architectures, and writing clean, modular code.
-* 🎸 When I'm away from the keyboard, I'm usually studying guitar.
-
-### 🛠️ Tech Stack & Skills
-* **Frontend:** React, Next.js, JavaScript
-* **Backend & Data:** Python, PostgreSQL, Nest.js, Java, 
-
----
+```json
+{
+  "basics": {
+    "name": "Luis Teles",
+    "role": "Front-end Developer & Computer Engineering Student",
+    "location": "Brazil",
+    "education": "Inatel (National Institute of Telecommunications)"
+  },
+  "focus": [
+    "Clean Code Architecture",
+    "Data-Driven Applications",
+    "Real-time Telemetry & Visualization"
+  ],
+  "tech_stack": {
+    "frontend": ["React", "Next.js", "JavaScript"],
+    "backend": ["Python", "PostgreSQL", "MongoDB"],
+    "tools": ["GCP", "MQTT", "Figma", "Git"]
+  },
+  "hobbies": ["Guitar Theory", "Sekiro", "Risk of Rain 2"]
+}
