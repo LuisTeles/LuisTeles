@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/top-banner.svg" width="100%" alt="Luis Teles full stack developer" />
+</p>
+
 # Hi there, I'm Luis Teles 👋
 
 ### 👨‍💻 About Me
@@ -12,8 +16,23 @@
 * **Backend:** NestJS, Python, Node, Java
 * **Database & DevOps:** PostgreSQL, MongoDB, Docker, AWS, Prisma 
 
+### 🛠️ Tech Stack Icons
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
 ---
 
 <p align="center">
-  <img src="./assets/my-custom-animation.svg" width="400" alt="Animated Graphic" />
+  <img src="./assets/my-custom-animation.svg" width="100%" alt="Animated Graphic" />
 </p>
