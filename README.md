@@ -11,10 +11,6 @@
 * 🐳 Passionate about clean code, modular architecture, and utilizing containerized environments to ensure reliable deployments.
 * 🎸 When I'm away from the keyboard, you can find me studying guitar.
 
-### 🛠️ Tech Stack & Skills
-* **Frontend:** React, Next.js, JavaScript
-* **Backend:** NestJS, Python, Node, Java
-* **Database & DevOps:** PostgreSQL, MongoDB, Docker, AWS, Prisma 
 
 ### 🛠️ Tech Stack Icons
 
@@ -22,7 +18,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
