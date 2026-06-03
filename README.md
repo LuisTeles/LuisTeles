@@ -1,16 +1,13 @@
-## Hi there 👋
+# Hi there, I'm Luis Teles 👋
 
-<!--
-**LuisTeles/LuisTeles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👨‍💻 About Me
+* 🎓 **Computer Engineering Student** at Inatel (National Institute of Telecommunications).
+* 💻 **Full stack developer** at SOIL tecnologia.
+* 🏗️ Passionate about building data-driven applications, establishing solid database architectures, and writing clean, modular code.
+* 🎸 When I'm away from the keyboard, I'm usually studying guitar.
 
-Here are some ideas to get you started:
+### 🛠️ Tech Stack & Skills
+* **Frontend:** React, Next.js, JavaScript
+* **Backend & Data:** Python, PostgreSQL, Nest.js, Java, 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
